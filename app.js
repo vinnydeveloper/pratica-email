@@ -1,9 +1,10 @@
 const express = require('express');
-const rotas = require('./src/routes');
+const rotas = require('./routes');
 const app = express();
 
-
+app.set('view engine', 'ejs')
 app.use(express.static(__dirname + '/public'))
+
 app.use(rotas)
 app.use((req, res)=>{
     return res.send("Acho que você se perdeu!");

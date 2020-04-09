@@ -8,6 +8,11 @@ const projetos = [
         nome:"Site Landseeker",
         descricao:"Site feito em HTML",
         tecnologia:"HTMl & CSS"
+    },
+    {
+        nome:"Pizzaria",
+        descricao:"Sistema Feito com Express",
+        tecnologia:"Express"
     }
 ]
 
